@@ -1,6 +1,13 @@
 package com.tree;
 
+
+
+import com.list.Quene;
+
 import java.util.NoSuchElementException;
+
+import java.util.Queue;
+import java.util.Stack;
 
 public class BinarySearchTree<T extends Comparable<? super T>> {
     private static class BinaryNode<T> {
@@ -189,5 +196,34 @@ public class BinarySearchTree<T extends Comparable<? super T>> {
             nextRraverse(root.right);
             System.out.println(root.element);
         }
+    }
+    public void widthRaverse(){
+        Quene<BinaryNode<T>> quene = new Quene<>();
+        quene.getIn(root);
+        while (!quene.isEmpty()){
+            BinaryNode<T> binaryNode = quene.pop();
+            quene.getIn(binaryNode.left);
+            quene.getIn(binaryNode.right);
+            System.out.println(binaryNode.element);
+        }
+
+    }
+    /**
+     * @Author zt648
+     * @Description 广度优点遍历
+     * @Date 14:39 2019/5/28
+     * @Param [args]
+     * @return void
+     * @throw
+     **/
+
+    public static void main(String[] args) {
+        BinarySearchTree<Integer> tree = new BinarySearchTree<>();
+        for (int i=0;i<100;i++){
+            tree.insert(i);
+        }
+        tree.midTraverse();
+
+
     }
 }

@@ -14,13 +14,13 @@ import java.util.NoSuchElementException;
  */
 
 public class DenseGraph implements Graph {
-    private int m;
-    private int v;
+    private int node;
+    private int edge;
     private boolean directed;
     private List<List<Boolean>> list = new ArrayList<>();
     public DenseGraph(int m, boolean directed) {
-        this.v = 0;
-        this.m = m;
+        this.edge = 0;
+        this.node = m;
         this.directed = directed;
         for(int i=0;i<m;i++){
             List<Boolean> lst = new ArrayList<>();
@@ -37,13 +37,13 @@ public class DenseGraph implements Graph {
     }
 
     @Override
-    public int V() {
-        return m;
+    public int getNode() {
+        return node;
     }
 
     @Override
-    public int E() {
-        return v;
+    public int getEdge() {
+        return edge;
     }
 
     @Override
@@ -56,14 +56,14 @@ public class DenseGraph implements Graph {
                 list.get(w).set(v,true);
             }
         }
-        v++;
+        edge++;
     }
 
     @Override
     public boolean hasEdge(int v, int w) {
-        if(v<0 || v > m)
+        if(v<0 || v > node)
             throw new IndexOutOfBoundsException();
-        if(w<0 || w > m)
+        if(w<0 || w > node)
             throw new IndexOutOfBoundsException();
         return list.get(v).get(w);
     }
@@ -88,13 +88,13 @@ public class DenseGraph implements Graph {
 
     private class DenseGraphIterator implements Iterator{
         private int current = 0;
-        private int v;
+        private int node;
         private List<Boolean> lst;
         private List<Integer> array;
 
         public DenseGraphIterator(int v) {
-            this.v = v;
-            lst = list.get(this.v);
+            this.node = v;
+            lst = list.get(this.node);
             array = new ArrayList<>();
             for(int i=0;i<lst.size();i++){
                 if(lst.get(i)){

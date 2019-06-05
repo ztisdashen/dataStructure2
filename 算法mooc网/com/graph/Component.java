@@ -20,51 +20,49 @@ public class Component {
     //这个index属于那个联通分支（集合）
     private int[] id;
 
-    public Component(Graph graph){
+    public Component(Graph graph) {
         this.graph = graph;
-        this.visited = new boolean[graph.V()];
-        this.id = new int[graph.V()];
+        this.visited = new boolean[graph.getNode()];
+        this.id = new int[graph.getNode()];
 
-        for(int i=0;i<graph.V();i++){
+        for (int i = 0; i < graph.getNode(); i++) {
             visited[i] = false;
             id[i] = -1;
         }
         branch = 0;
 
-        for(int i=0;i<this.graph.V();i++){
-            if(!visited[i]){
+        for (int i = 0; i < this.graph.getNode(); i++) {
+            if (!visited[i]) {
                 deepFind(i);
                 branch++;
             }
         }
     }
-    static {
-
-    }
 
     //深度优先遍历
-    private void deepFind(int v){
+    private void deepFind(int v) {
         visited[v] = true;
         id[v] = branch;
         Iterator iterator = graph.iterator(v);
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             int index = (int) iterator.next();
             if (index >= 0) {
-                if(!visited[index])
+                if (!visited[index])
                     deepFind(index);
             }
-            }
-
         }
 
-    public boolean isConnected(int v,int w){
+    }
+
+    public boolean isConnected(int v, int w) {
 //        if(v<0 || v >=graph.V())
 //            throw new IndexOutOfBoundsException();
 //        if(w<0 || w >= graph.V())
 //            throw new IndexOutOfBoundsException();
         return id[v] == id[w];
     }
-    public int getBranch(){
+
+    public int getBranch() {
         return branch;
     }
 }

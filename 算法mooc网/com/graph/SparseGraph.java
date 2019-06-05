@@ -15,13 +15,13 @@ import java.util.NoSuchElementException;
 
 public class SparseGraph implements Graph {
 
-    private int n,m;
+    private int node,edge;
     private boolean directed;
     List<List<Integer>> list = new ArrayList<>();
 
     public SparseGraph(int n,boolean isDirected){
-        this.n = n;
-        this.m = 0;
+        this.node = n;
+        this.edge = 0;
         //是不是无向图
         directed = isDirected;
         for(int i=0;i<n;i++){
@@ -37,8 +37,8 @@ public class SparseGraph implements Graph {
      * @throw
      **/
     @Override
-    public int E() {
-        return m;
+    public int getEdge() {
+        return edge;
     }
     /*
      * @Author zt648
@@ -49,8 +49,8 @@ public class SparseGraph implements Graph {
      * @throw
      **/
     @Override
-    public int V() {
-        return n;
+    public int getNode() {
+        return node;
     }
     /**
      * @Author zt648
@@ -62,9 +62,9 @@ public class SparseGraph implements Graph {
      **/
     @Override
     public void addEdge(int v, int w) {
-        if(v<0 || v > n)
+        if(v<0 || v > node)
             throw new ArrayIndexOutOfBoundsException();
-        if(w<0 || w > n)
+        if(w<0 || w > node)
             throw new ArrayIndexOutOfBoundsException();
         List<Integer> lst = list.get(v);
         if(hasEdge(v,w))
@@ -76,14 +76,14 @@ public class SparseGraph implements Graph {
             lst.add(v);
             list.set(w,lst);
         }
-        m++;
+        edge++;
     }
 
     @Override
     public boolean hasEdge(int v, int w) {
-        if(v<0 || v > n)
+        if(v<0 || v > node)
             throw new ArrayIndexOutOfBoundsException();
-        if(w<0 || w > n)
+        if(w<0 || w > node)
             throw new ArrayIndexOutOfBoundsException();
         List<Integer> lst =  list.get(v);
         for( int i = 0 ; i < lst.size() ; i ++ ){

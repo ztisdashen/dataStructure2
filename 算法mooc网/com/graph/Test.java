@@ -13,8 +13,8 @@ import java.util.List;
 
 public class Test {
     public static void main(String[] args) {
-        int m = 5;
-        int n = 4;
+        int m = 200;
+        int n = 50;
         DenseGraph graph = new DenseGraph(n, false);
 
         for (int i = 0; i < m; i++) {
@@ -22,26 +22,13 @@ public class Test {
             int b = (int) (Math.random() * n);
             graph.addEdge(a, b);
         }
-                for(int i = 0;i<n;i++){
-            Iterator iterator = graph.iterator(i);
-            while (iterator.hasNext())
-                System.out.print(iterator.next()+"   ");
-            System.out.println();
-
-
-//        Graph graph1 = new SparseGraph(n,false);
-//        for(int i=0;i<m;i++){
-//            int a = (int)(Math.random() * n );
-//            int b = (int)(Math.random() * n );
-//            graph1.addEdge(a,b);
-//        }
-//        for(int i = 0;i<n;i++){
-//            Iterator iterator = graph1.iterator(i);
-//            while (iterator.hasNext())
-//                System.out.print(iterator.next()+"   ");
-//            System.out.println();
-//        }
-        }
-
+        graph.show();
+        Path path = new Path(graph,3);
+        path.showPath(3);
+        ShortestPath path1 = new ShortestPath(graph,3);
+        path1.showPath(3);
+        System.out.println(path1.length(3));
     }
+
+
 }

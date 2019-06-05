@@ -23,8 +23,10 @@ public class Quene<T> {
         return node.value;
     }
     public void getIn(T value){
+        if(value!=null){
         QueneNode<T> node = new QueneNode<>(value,null);
         getIn(node);
+        }
     }
     private QueneNode<T> getLast(){
         QueneNode<T> node1;

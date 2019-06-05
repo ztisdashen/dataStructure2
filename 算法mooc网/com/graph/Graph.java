@@ -11,8 +11,8 @@ import java.util.Iterator;
  */
 
 public interface Graph{
-    int V();
-    int E();
+    int getNode();
+    int getEdge();
     void addEdge(int v,int w);
     boolean hasEdge(int v,int w);
     void show();
