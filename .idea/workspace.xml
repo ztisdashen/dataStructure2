@@ -5,22 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a27584a0-bb2b-4644-a539-f69199bd824f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/heap/BinomialQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/算法mooc网/com/graph/Path.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/算法mooc网/com/graph/ShortestPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sort/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sort/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法mooc网/com/Minimum_Span_Trees/DenseGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法mooc网/com/Minimum_Span_Trees/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法mooc网/com/Minimum_Span_Trees/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法mooc网/com/Minimum_Span_Trees/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法mooc网/com/Minimum_Span_Trees/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法mooc网/com/Minimum_Span_Trees/WorkGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/数据结构与算法分析/com/list/Quene$QueneNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/数据结构与算法分析/com/list/Quene$QueneNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/数据结构与算法分析/com/list/Quene.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/数据结构与算法分析/com/list/Quene.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/数据结构与算法分析/com/tree/BinarySearchTree$BinaryNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/数据结构与算法分析/com/tree/BinarySearchTree$BinaryNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/数据结构与算法分析/com/tree/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/数据结构与算法分析/com/tree/BinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/list/Quene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/list/Quene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/算法mooc网/com/graph/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/算法mooc网/com/graph/Component.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/算法mooc网/com/graph/DenseGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/算法mooc网/com/graph/DenseGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/算法mooc网/com/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/算法mooc网/com/graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/算法mooc网/com/graph/SparseGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/算法mooc网/com/graph/SparseGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/算法mooc网/com/graph/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/算法mooc网/com/graph/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/heap/BinomialQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/heap/BinomialQueue.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,6 +25,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -38,10 +49,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/算法mooc网/com/arthi/Sort.java">
+        <entry file="file://$PROJECT_DIR$/算法mooc网/com/Minimum_Span_Trees/WorkGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-600">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="196">
+              <caret line="252" column="32" selection-start-line="252" selection-start-column="32" selection-end-line="252" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/算法mooc网/com/graph/DenseGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
+                <element signature="e#966#967#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/算法mooc网/com/Minimum_Span_Trees/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/算法mooc网/com/Minimum_Span_Trees/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,10 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MyArrayLIst.java" />
-        <option value="$PROJECT_DIR$/src/MyLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/AVLBinarySearchTree.java" />
         <option value="$PROJECT_DIR$/算法mooc网/com/arthi/GenerateArr.java" />
         <option value="$PROJECT_DIR$/算法mooc网/com/arthi/Sort.java" />
@@ -105,7 +157,6 @@
         <option value="$PROJECT_DIR$/算法mooc网/com/graph/MyIterator.java" />
         <option value="$PROJECT_DIR$/src/com/list/Quene.java" />
         <option value="$PROJECT_DIR$/src/com/tree/BinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/com/heap/BinomialQueue.java" />
         <option value="$PROJECT_DIR$/算法mooc网/com/graph/Graph2.java" />
         <option value="$PROJECT_DIR$/算法mooc网/com/graph/DenseGraph2.java" />
         <option value="$PROJECT_DIR$/算法mooc网/com/graph/Graph.java" />
@@ -115,14 +166,25 @@
         <option value="$PROJECT_DIR$/算法mooc网/com/graph/Path.java" />
         <option value="$PROJECT_DIR$/算法mooc网/com/graph/ShortestPath.java" />
         <option value="$PROJECT_DIR$/算法mooc网/com/graph/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/Utils.java" />
+        <option value="$PROJECT_DIR$/src/Test/Pet.java" />
+        <option value="$PROJECT_DIR$/src/Test/Cat.java" />
+        <option value="$PROJECT_DIR$/src/com/heap/BinomialQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/sort/Sort.java" />
+        <option value="$PROJECT_DIR$/src/com/sort/Test.java" />
+        <option value="$PROJECT_DIR$/算法mooc网/com/Minimum_Span_Trees/Edge.java" />
+        <option value="$PROJECT_DIR$/算法mooc网/com/Minimum_Span_Trees/DenseGraph.java" />
+        <option value="$PROJECT_DIR$/算法mooc网/com/Minimum_Span_Trees/Graph.java" />
+        <option value="$PROJECT_DIR$/算法mooc网/com/Minimum_Span_Trees/User.java" />
+        <option value="$PROJECT_DIR$/算法mooc网/com/Minimum_Span_Trees/Test.java" />
+        <option value="$PROJECT_DIR$/算法mooc网/com/Minimum_Span_Trees/WorkGraph.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1750" />
-    <option name="height" value="980" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -132,8 +194,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,11 +206,6 @@
             <path>
               <item name="数据结构与算法分析" type="b2602c69:ProjectViewProjectNode" />
               <item name="数据结构与算法分析" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="数据结构与算法分析" type="b2602c69:ProjectViewProjectNode" />
-              <item name="数据结构与算法分析" type="462c0819:PsiDirectoryNode" />
               <item name="算法mooc网" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -162,7 +219,14 @@
               <item name="数据结构与算法分析" type="462c0819:PsiDirectoryNode" />
               <item name="算法mooc网" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="arthi" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="数据结构与算法分析" type="b2602c69:ProjectViewProjectNode" />
+              <item name="数据结构与算法分析" type="462c0819:PsiDirectoryNode" />
+              <item name="算法mooc网" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Minimum_Span_Trees" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,7 +244,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../total_learn/homeWork" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -191,11 +255,12 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.graph" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\java\数据结构与算法分析\算法mooc网\com\arthi" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.Minimum_Span_Trees" />
+      <recent name="com.graph" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -215,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
+  <component name="RunManager" selected="Application.WorkGraph">
     <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tree.BinarySearchTree" />
       <module name="数据结构与算法分析" />
@@ -229,35 +294,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="数据结构与算法分析" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Quene" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.list.Quene" />
+    <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Cat" />
       <module name="数据结构与算法分析" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeparChainingHashTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.SeparChainingHashTable" />
-      <module name="数据结构与算法分析" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hash.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,13 +320,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Minimum_Span_Trees.Test" />
+      <module name="数据结构与算法分析" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Minimum_Span_Trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Minimum_Span_Trees.WorkGraph" />
+      <module name="数据结构与算法分析" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Minimum_Span_Trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WorkGraph" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Cat" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.BinarySearchTree" />
-        <item itemvalue="Application.Quene" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SeparChainingHashTable" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +392,12 @@
       <workItem from="1559101748199" duration="2416000" />
       <workItem from="1559112818780" duration="599000" />
       <workItem from="1559121529336" duration="9304000" />
-      <workItem from="1559702597518" duration="312000" />
+      <workItem from="1559702597518" duration="14195000" />
+      <workItem from="1559725933268" duration="3682000" />
+      <workItem from="1560239003240" duration="244000" />
+      <workItem from="1560423143930" duration="9766000" />
+      <workItem from="1560436651685" duration="1668000" />
+      <workItem from="1560469605349" duration="12624000" />
     </task>
     <task id="LOCAL-00001" summary="2019/5/25">
       <created>1558746309129</created>
@@ -333,11 +406,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558746309129</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2019/6/5">
+      <created>1559702932763</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559702932763</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92350000" />
+    <option name="totallyTimeSpent" value="134217000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -356,7 +436,7 @@
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.49787837" visible="true" weight="0.19504021" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.49787837" weight="0.41908714" />
       <window_info id="Favorites" order="5" sideWeight="0.5021216" side_tool="true" weight="0.2533512" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.3286119" />
@@ -366,8 +446,8 @@
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.5934844" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.39886847" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.5906516" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.5283286" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32956153" />
@@ -461,171 +541,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2019/5/25" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019/5/25" />
+    <MESSAGE value="2019/6/5" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/6/5" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/算法mooc网/com/arthi/GenerateArr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法mooc网/com/arthi/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法mooc网/com/Heap/IndexHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-          <folding>
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法mooc网/com/Heap/Heap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" selection-start-line="14" selection-end-line="90" selection-end-column="5" />
-          <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法mooc网/com/Heap/HeapIml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/list.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/list/MyArrayLIst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2323#2324#0" expanded="true" />
-            <element signature="e#2381#2382#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/list/MyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1357#1358#0" expanded="true" />
-            <element signature="e#1402#1403#0" expanded="true" />
-            <element signature="e#2225#2226#0" expanded="true" />
-            <element signature="e#2277#2278#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tree/AVLBinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-820">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法mooc网/com/unite_find/UniteFind1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" selection-start-line="8" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法mooc网/com/unite_find/UniteFind2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法mooc网/com/unite_find/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1098">
-          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法mooc网/com/unite_find/UniteFind5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="55" column="1" lean-forward="true" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
-          <folding>
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法mooc网/com/unite_find/UniteFind4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" selection-start-line="8" selection-end-line="52" selection-end-column="5" />
-          <folding>
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法mooc网/com/unite_find/UniteFind3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" selection-start-line="12" selection-end-line="54" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/JAVATool/Git/ReleaseNotes.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tree/DemoMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
@@ -798,19 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/heap/BinomialQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
-          <folding>
-            <element signature="e#1640#1641#0" expanded="true" />
-            <element signature="e#1679#1680#0" expanded="true" />
-            <element signature="e#2127#2128#0" expanded="true" />
-            <element signature="e#2176#2177#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/算法mooc网/com/graph/Graph2.java" />
     <entry file="file://$PROJECT_DIR$/算法mooc网/com/graph/DenseGraph2.java" />
     <entry file="jar://D:/java/jdk/lib/src.zip!/java.base/java/util/AbstractQueue.java">
@@ -848,13 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/算法mooc网/com/graph/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/java/jdk/lib/src.zip!/java.base/java/util/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
@@ -889,10 +788,220 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/算法mooc网/com/arthi/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="100" column="36" lean-forward="true" selection-start-line="100" selection-start-column="36" selection-end-line="100" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/Pet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/heap/BinomialQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4782">
+          <caret line="306" column="20" selection-start-line="306" selection-start-column="20" selection-end-line="306" selection-end-column="20" />
+          <folding>
+            <element signature="e#1640#1641#0" expanded="true" />
+            <element signature="e#1679#1680#0" expanded="true" />
+            <element signature="e#2127#2128#0" expanded="true" />
+            <element signature="e#2176#2177#0" expanded="true" />
+            <element signature="e#4964#4965#0" expanded="true" />
+            <element signature="e#4998#4999#0" expanded="true" />
+            <element signature="e#3749#3750#0" expanded="true" />
+            <element signature="e#3803#3804#0" expanded="true" />
+            <element signature="e#8378#8379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk/lib/src.zip!/jdk.compiler/com/sun/source/tree/IfTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sort/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4720">
+          <caret line="242" column="5" selection-start-line="242" selection-start-column="5" selection-end-line="242" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2547#2548#0" expanded="true" />
+            <element signature="e#2579#2580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sort/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法mooc网/com/graph/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" selection-start-line="13" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法mooc网/com/unite_find/UniteFind1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法mooc网/com/unite_find/UniteFind2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法mooc网/com/unite_find/UniteFind3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法mooc网/com/unite_find/UniteFind4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法mooc网/com/unite_find/UniteFind5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="55" column="1" lean-forward="true" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法mooc网/com/graph/SparseGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法mooc网/com/Minimum_Span_Trees/DenseGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2461#2462#0" expanded="true" />
+            <element signature="e#2488#2489#0" expanded="true" />
+            <element signature="e#4244#4245#0" expanded="true" />
+            <element signature="e#4280#4281#0" expanded="true" />
+            <element signature="e#4313#4314#0" expanded="true" />
+            <element signature="e#4349#4350#0" expanded="true" />
+            <element signature="e#4381#4382#0" expanded="true" />
+            <element signature="e#4418#4419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法mooc网/com/Minimum_Span_Trees/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法mooc网/com/Minimum_Span_Trees/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法mooc网/com/graph/Path.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1340">
+          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法mooc网/com/Minimum_Span_Trees/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法mooc网/com/Minimum_Span_Trees/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/算法mooc网/com/graph/DenseGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+        <state relative-caret-position="440">
+          <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#939#940#0" expanded="true" />
@@ -901,30 +1010,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/算法mooc网/com/graph/SparseGraph.java">
+    <entry file="file://$PROJECT_DIR$/算法mooc网/com/Minimum_Span_Trees/WorkGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="133" column="38" selection-start-line="133" selection-start-column="38" selection-end-line="133" selection-end-column="38" />
+        <state relative-caret-position="196">
+          <caret line="252" column="32" selection-start-line="252" selection-start-column="32" selection-end-line="252" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法mooc网/com/graph/Path.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法mooc网/com/arthi/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
