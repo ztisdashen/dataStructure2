@@ -13,7 +13,7 @@ import java.util.List;
  */
 
 public class WorkGraph {
-    //æ€»çš„è¯¾ç¨‹æ•°ç›®
+    //×ÜµÄ¿Î³ÌÊıÄ¿
     private int totalVertex;
     private int totalEdge;
     private List<List<Edge>> graph;
@@ -26,7 +26,7 @@ public class WorkGraph {
         init(totalVertex);
 
     }
-//åˆå§‹åŒ–
+//³õÊ¼»¯
     private void init(int totalVertex) {
         graph = new ArrayList<>(totalVertex);
         for (int i = 0; i < totalVertex; i++) {
@@ -39,11 +39,11 @@ public class WorkGraph {
         }
     }
 
-//è¾¹
+//±ß
     class Edge {
-        //ä¸»èŠ‚ç‚¹
+        //Ö÷½Úµã
         private Vertex vertex1;
-        //å‰¯èŠ‚ç‚¹
+        //¸±½Úµã
         private Vertex vertex2;
 
         public Edge(Vertex vertex1, Vertex vertex2) {
@@ -62,11 +62,11 @@ public class WorkGraph {
     }
 
     class Vertex {
-        //è¿™é—¨è¯¾
+        //ÕâÃÅ¿Î
         private int clazz;
-        //è¿™é—¨è¯¾çš„æ—¶é—´
+        //ÕâÃÅ¿ÎµÄÊ±¼ä
         private int time;
-        //è¿™é—¨è¯¾çš„æ€»äººæ•°
+        //ÕâÃÅ¿ÎµÄ×ÜÈËÊı
         private int numberOfPeople;
 
         public Vertex(int clazz) {
@@ -101,11 +101,7 @@ public class WorkGraph {
 
         @Override
         public String toString() {
-            return "Vertex{" +
-                    "clazz=" + clazz +
-                    ", time=" + time +
-                    ", numberOfPeople=" + numberOfPeople +
-                    '}';
+            return "¿Î³ÌË÷Òı£º"+clazz+" Ê±¼ä°²ÅÅ£º"+time+" ¿Î³ÌÈËÊı£º"+numberOfPeople;
         }
     }
 
@@ -139,7 +135,7 @@ public class WorkGraph {
     }
 
 
-    //å±•ç¤ºè¿™ä¸ªå›¾
+    //Õ¹Ê¾Õâ¸öÍ¼
     void show() {
         for (int i = 0; i < totalVertex; i++) {
             for (int j = 0; j < graph.get(i).size(); j++) {
@@ -158,7 +154,7 @@ public class WorkGraph {
             lists.add(graph.get(i));
         }
 
-        //æŒ‰åº¦çš„å¤§å°æ’åº
+        //°´¶ÈµÄ´óĞ¡ÅÅĞò
         Collections.sort(lists, (o1, o2) -> {
             int i = 0;
             int i1 = 0;
@@ -179,9 +175,9 @@ public class WorkGraph {
     }
 
     public void chooseClass() {
-        //timeæ˜¯æ—¶é—´
+        //timeÊÇÊ±¼ä
         int time = 1;
-        //visitæ•°ç»„æ˜¯åˆ¤æ–­è¿™ä¸ªè¯¾ç¨‹æ˜¯å¦å·²ç»è¢«åˆ†é…äº†æ—¶é—´
+        //visitÊı×éÊÇÅĞ¶ÏÕâ¸ö¿Î³ÌÊÇ·ñÒÑ¾­±»·ÖÅäÁËÊ±¼ä
         boolean[] visit = new boolean[totalVertex];
         for (int i = 0; i < visit.length; i++) {
             visit[i] = false;
@@ -198,25 +194,29 @@ public class WorkGraph {
                 int clazz = -1;
                 for (int j = 0; j < list.get(index).size(); j++) {
                     Edge edge = list.get(index).get(j);
-                    //æ‰¾åˆ°éç©ºçš„è¾¹
+                    //ÕÒµ½·Ç¿ÕµÄ±ß
                     if (edge != null) {
                         visit[index] = true;
-                        //æŸ¥å‡ºè¿™ä¸ªèŠ‚ç‚¹å¯¹åº”çš„è¯¾ç¨‹
+                        //²é³öÕâ¸ö½Úµã¶ÔÓ¦µÄ¿Î³Ì
                         clazz = edge.getVertex1().getClazz();
-                        //ç¡®å®šè¿™é—¨è¯¾ç¨‹æ—¶é—´
+                        //È·¶¨ÕâÃÅ¿Î³ÌÊ±¼ä
                         vertexs[clazz].setTime(time);
                         break;
                     }
                 }
                 while (index2 < list.size()) {
-                    while (index2 < list.size() && hasEdge(index, index2, list)) {
-
-                        //æ’é™¤ä¸€ç§ç‰¹æ®Šæƒ…å†µï¼Œå³aä¸cæ— è¾¹ï¼Œaä¸dæ— è¾¹ï¼Œä½†cä¸då³è¾¹
-                        if(visit[index2-1] && hasEdge(index2-1,index2,list))
-                            index2++;
+                    //ÕÒµ½Ã»ÓĞÁÚ½Ó±ßµÄ½Úµã
+                    while (index2 < list.size() && (hasEdge(index, index2, list)||visit[index2]) ) {
                         index2++;
                     }
-                    //å°†æƒ³å‘ä¸‹æ¢æµ‹ä¸”ç¬¦åˆæ¡ä»¶çš„èŠ‚ç‚¹åˆ†é…æ—¶é—´ï¼Œå¹¶è®¾ä¸ºvisitä¸ºtrue;
+                    //ÅÅ³ıÌØÊâÇé¿ö
+                    while (index2 < list.size() && (hasEdge(index2 - 1, index2, list) ||visit[index2])) {
+                        index2++;
+                        while (index2 < list.size() && (hasEdge(index, index2, list)||visit[index2])) {
+                            index2++;
+                        }
+                    }
+                    //½«ÏëÏòÏÂÌ½²âÇÒ·ûºÏÌõ¼şµÄ½Úµã·ÖÅäÊ±¼ä£¬²¢ÉèÎªvisitÎªtrue;
                     for (int j = 0; index2 < list.size() && j < list.get(index2).size(); j++) {
                         Edge edge = list.get(index2).get(j);
                         if (edge != null) {
@@ -230,8 +230,6 @@ public class WorkGraph {
                 }
                 index++;
                 time++;
-
-
         }
 
     }
@@ -249,21 +247,65 @@ public class WorkGraph {
 
 
     public static void main(String[] args) {
-        WorkGraph workGraph = new WorkGraph(6);
-        workGraph.addEdge(0, 1);
-        workGraph.addEdge(3, 4, 0);
-        workGraph.addEdge(5, 0, 1);
-        workGraph.addEdge(3, 0, 4);
-        workGraph.addEdge(4, 5);
-        workGraph.addEdge(2, 3, 0);
-        workGraph.addEdge(5, 1, 0);
-        workGraph.addEdge(0, 2, 1);
-        workGraph.addEdge(2, 1);
-        workGraph.addEdge(4, 0, 5);
+        WorkGraph workGraph = new WorkGraph(17);
+        for (int i = 0; i < 5; i++) {
+            workGraph.addEdge(0, 1, 2, 3, 4, 5, 6, 7);
+        }
+        for (int i = 0; i < 5; i++) {
+            workGraph.addEdge(0, 1, 2, 3, 4, 5, 8);
+        }
+        for (int i = 0; i < 5; i++) {
+            workGraph.addEdge(0, 1, 2, 3, 4, 5, 10);
+        }
+        for (int i = 0; i < 5; i++) {
+            workGraph.addEdge(0, 1, 2, 3, 4, 5, 9);
+        }
+        for (int i = 0; i < 5; i++) {
+            workGraph.addEdge(0, 1, 2, 3, 4, 6, 11);
+        }
+        for (int i = 0; i < 5; i++) {
+            workGraph.addEdge(0, 1, 2, 3, 4, 6, 7);
+        }
+        for (int i = 0; i < 5; i++) {
+            workGraph.addEdge(0, 1, 2, 3, 4, 5, 11);
+        }
+        for (int i = 0; i < 5; i++) {
+            workGraph.addEdge(0, 1, 2, 3, 4, 6, 12);
+        }
+        for (int i = 0; i < 5; i++) {
+            workGraph.addEdge(0, 1, 2, 3, 4, 13, 14);
+        }
+        for (int i = 0; i < 5; i++) {
+            workGraph.addEdge(0, 1, 2, 3, 4, 13, 12, 14);
+        }
+        for (int i = 0; i < 5; i++) {
+            workGraph.addEdge(0, 1, 2, 3, 4, 13, 15, 11);
+        }
+        for (int i = 0; i < 5; i++) {
+            workGraph.addEdge(0, 1, 2, 3, 4, 5, 16);
+        }
+        for (int i = 0; i < 5; i++) {
+            workGraph.addEdge(0, 1, 2, 3, 4, 6, 10);
+        }
+        for (int i = 0; i < 5; i++) {
+            workGraph.addEdge(0, 1, 2, 3, 4, 13, 9);
+        }
+        for (int i = 0; i < 5; i++) {
+            workGraph.addEdge(0, 1, 2, 3, 4, 5, 10, 9);
+        }
+
+        for (int i = 0; i < 5; i++) {
+            workGraph.addEdge(0, 1, 2, 3, 4, 5, 6, 15);
+        }
+
+        for (int i = 0; i < 5; i++) {
+            workGraph.addEdge(0, 1, 2, 3, 4, 5, 7, 15);
+        }
+        for (int i = 0; i < 5; i++) {
+            workGraph.addEdge(0, 1, 2, 3, 4, 5, 11, 7);
+        }
         workGraph.show();
         workGraph.showTime();
-
-
     }
 
 }
